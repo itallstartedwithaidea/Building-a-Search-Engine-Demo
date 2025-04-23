@@ -1,0 +1,11 @@
+search-sheet-serp/
+├── cloud-run-api/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── main.py
+├── sheets/
+│   └── Code.gs           # the Apps-Script file
+├── setup/
+│   ├── create-secrets.sh # helper for Secret Manager
+│   └── deploy.sh         # one-liner Cloud Run deploy
+└── README.md
